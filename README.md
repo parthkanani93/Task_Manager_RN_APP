@@ -118,5 +118,5 @@ For any queries or contributions, feel free to contact:
 
 - **Author:** Parth Mavjibhai Kanani
 - **GitHub:** [parthkanani93](https://github.com/parthkanani93)
-- **Email:** [your-email@example.com](mailto\:your-email@example.com)
+- **Email:** [parthkanani8490@gmail.com](mailto\:parthkanani8490@gmail.com)
 
