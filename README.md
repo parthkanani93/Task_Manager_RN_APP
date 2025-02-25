@@ -1,64 +1,122 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Task App
 
-# Task App Video Link
+## Overview
 
-[Link](https://drive.google.com/file/d/1tihE6TJnUzQfS7Lgun9DbAOJylPxW4ZH/view?usp=sharing)
+Task App is a mobile application designed to manage tasks efficiently. The app supports both Android and iOS platforms and integrates with a backend for task management.
 
-# Getting Started
+---
 
-> **Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Run the App
 
-## Step 1: Start the Metro Server
+### 1. **Download APK**
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+You can download the APK file from [this link](https://drive.google.com/file/d/1bxGZLDrMOSgu3LHWOJ88r7EuSeA1zfip/view?usp=sharing).
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### 2. **Backend Project**
 
-```bash
-# using npm
-npm start
+The backend for this app can be found at [Task Manager Backend Repo](https://github.com/parthkanani93/Task_Manager_Backend).
 
-# OR using Yarn
-yarn start
-```
+---
 
-## Step 2: Start your Application
+## Run Locally
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+### **For Android**
 
-### For Android
+#### **Install APK (Direct Method)**
 
-```bash
-# using npm
-npm run android
+1. Download the APK file and install it on your Android device.
+2. Open the app and start using it.
 
-# OR using Yarn
-yarn android
-```
+#### **Run Locally (Development Mode)**
 
-### For iOS
+1. Clone the repository:
 
-```bash
-# using npm
-npm run ios
+   ```bash
+   git clone https://github.com/your-repo/task-app.git
+   cd task-app
+   ```
 
-# OR using Yarn
-yarn ios
-```
+2. Install dependencies:
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+   ```bash
+   npm install
+   ```
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+3. Start the Metro bundler:
 
-## Step 3: Modifying your App
+   ```bash
+   npx react-native start
+   ```
 
-Now that you have successfully run the app, let's modify it.
+4. Open a new terminal and run the app on an Android emulator or connected device:
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+   ```bash
+   npx react-native run-android
+   ```
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+---
 
-## Congratulations! :tada:
+### **For iOS**
 
-You've successfully run and modified your React Native App. :partying_face:
+#### **Run Locally (Development Mode)**
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-repo/task-app.git
+   cd task-app
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+3. Install CocoaPods dependencies (for iOS):
+
+   ```bash
+   cd ios
+   pod install
+   cd ..
+   ```
+
+4. Start the Metro bundler:
+
+   ```bash
+   npx react-native start
+   ```
+
+5. Open a new terminal and run the app on the iOS simulator:
+
+   ```bash
+   npx react-native run-ios
+   ```
+
+📌 **Note:** Ensure you have Xcode installed and an iOS simulator set up for running the app on macOS.
+
+---
+
+## Technologies Used
+
+- React Native
+- Node.js (Backend)
+- Express.js
+- MongoDB
+
+---
+
+## License
+
+This project is licensed under the MIT License.
+
+---
+
+## Contact
+
+For any queries or contributions, feel free to contact:
+
+- **Author:** Parth Mavjibhai Kanani
+- **GitHub:** [parthkanani93](https://github.com/parthkanani93)
+- **Email:** [your-email@example.com](mailto\:your-email@example.com)
+
