@@ -16,6 +16,11 @@ You can download the APK file from [this link](https://drive.google.com/file/d/1
 
 The backend for this app can be found at [Task Manager Backend Repo](https://github.com/parthkanani93/Task_Manager_Backend).
 
+
+### 3. **Demo Video**
+
+Watch the demo video here: [Task App Demo](https://drive.google.com/file/d/1LjVijcFlMcWm1iR4drNWzxSU4y2JeDkC/view?usp=sharing)
+
 ---
 
 ## Run Locally
